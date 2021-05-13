@@ -35,33 +35,18 @@ div.quotebox {
     line-height: 60px;
 }
 
-#profilepic{
-  float:left;
-  margin-left: -20px;
-}
-
-#profiletext{
-  float: left;
-  padding-top: 70px;
-  padding-left: 80px;
-  
-  margin: auto;
-  text-align: center;
-  font-family:helvetica;
-  font-size: 18pt;
-  font-weight:200;
-}
-
-#wrapper {
+#aboutwrapper {
   display: flex;
 }
 
-#left {
+#profilepic {
   flex: 0 0 45%;
   object-fit:contain;
+  margin-left: -20px;
+  margin-top: -1px;
 }
 
-#right {
+#abouttext {
   flex: 1;
   margin: auto;
   text-align: center;
