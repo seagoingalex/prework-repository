@@ -33,17 +33,42 @@ div.quotebox {
     margin-left: -20px;
     margin-right: -20px;
     line-height: 60px;
-    font-c
 }
 
-.column {
+#profilepic{
+  float:left;
+  margin-left: -20px;
+}
+
+#profiletext{
   float: left;
-  width: 50%;
+  padding-top: 70px;
+  padding-left: 80px;
+  
+  margin: auto;
+  text-align: center;
+  font-family:helvetica;
+  font-size: 18pt;
+  font-weight:200;
 }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+#wrapper {
+  display: flex;
+}
+
+#left {
+  flex: 0 0 45%;
+  object-fit:contain;
+}
+
+#right {
+  flex: 1;
+  margin: auto;
+  text-align: center;
+  font-family:helvetica;
+  font-size: 20pt;
+  font-weight:200;
+  line-height:45px;
+  padding-left:40px;
+  padding-right:40px;
 }
